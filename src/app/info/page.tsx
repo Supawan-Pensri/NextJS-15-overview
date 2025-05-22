@@ -1,12 +1,13 @@
+import Counter from '@/components/counter'
 import React from 'react'
 
-const InfoPage = () => {
-    console.log('Hello')
+const page = () => {
+    console.log('Server')
     return (
         <div>
-            Info
+            <Counter />
         </div>
     )
 }
 
-export default InfoPage
+export default page
